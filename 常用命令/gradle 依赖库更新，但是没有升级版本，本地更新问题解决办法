@@ -1,4 +1,4 @@
-gradlew 依赖库更新，但是没有升级版本，本地更新问题解决办法：
+gradle 依赖库更新，但是没有升级版本，本地更新问题解决办法：
 
 windows：
 1、删除.gradle -> caches -> modules-2 -> files-2.1 -> 找到依赖库，然后删除，
