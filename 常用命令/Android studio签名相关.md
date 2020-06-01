@@ -2,6 +2,11 @@
 Android-APK签名工具-jarsigner和apksigner
 参考链接：https://blog.csdn.net/qq_32115439/article/details/55520012
 
+
+查看签名文件的签名信息方法：
+keytool -list -v -keystore 签名文件
+
+
 签名验证：
 1.方法一(keytool,只支持V1签名校验)
     进入JDK/bin, 输入命令
