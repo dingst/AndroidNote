@@ -8,3 +8,5 @@ adb shell ip -f inet addr show wlan0 或者 adb shell ip -f inet addr show
 adb shell getprop ro.product.cpu.abi 
 
 
+3、查看手机正在运行的进程
+adb shell ps | findstr tencent
